@@ -1,0 +1,18 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "WEBSITE_SLOT_NAME": "Production",
+    "FUNCTIONS_EXTENSION_VERSION": "~1",
+    "ScmType": "None",
+    "WEBSITE_AUTH_ENABLED": "False",
+    "BindingRedirects": "[ { “ShortName”: “Microsoft.Azure.Amqp”, “RedirectToVersion”: “2.1.0.0”, “PublicKeyToken”: “31bf3856ad364e35” } ]",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "b526b64d-2852-4ec1-9b1d-f37166919ad5",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=advrmmbefb;AccountKey=Of/7jXLM8PS9fZGiF23YlSZixi8fIjKvo6zHQgWlQpD2Qa/+kXEYYJyrvRXd5/SswhleoyQen6hrd0AoNMaw/w==",
+    "WEBSITE_NODE_DEFAULT_VERSION": "6.5.0",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=advrmmbefb;AccountKey=Of/7jXLM8PS9fZGiF23YlSZixi8fIjKvo6zHQgWlQpD2Qa/+kXEYYJyrvRXd5/SswhleoyQen6hrd0AoNMaw/w==",
+    "WEBSITE_CONTENTSHARE": "advrmmbefb",
+    "WEBSITE_SITE_NAME": "AdvRmm",
+    "GlobalConnectString": "HostName=iothub4l47667r6ogik.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=e0hqeP+EeVb7tbLgISdcL2d5K+cI5wpvVuZseXx90CM=",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=advrmmbefb;AccountKey=Of/7jXLM8PS9fZGiF23YlSZixi8fIjKvo6zHQgWlQpD2Qa/+kXEYYJyrvRXd5/SswhleoyQen6hrd0AoNMaw/w=="
+  }
+}
