@@ -24,13 +24,13 @@ function genSasResult(context, hostname, deviceId, key) {
         "paasSolution": "Azure-Paas",
         "credential": {
             "protocols": {
-                "mqtt": {
-                    "ssl": false,
-                    "port": 1883,
-                    "username": "N/A",
-                    "password": "N/A"
-                },
                 "mqtt+ssl": {
+                    "ssl": true,
+                    "port": 8883,
+                    "username": hostname + "/" + deviceId,
+                    "password": sasString
+                },
+                "mqtt": {
                     "ssl": true,
                     "port": 8883,
                     "username": hostname + "/" + deviceId,
