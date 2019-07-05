@@ -4,6 +4,8 @@ function GetEnvironmentVariable(name)
 }
 
 var ServiceHost = GetEnvironmentVariable("ServiceHost");
+var RMQUser = GetEnvironmentVariable("RMQUser");
+var RMQPassword = GetEnvironmentVariable("RMQPassword");
 
 module.exports = function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
@@ -18,14 +20,14 @@ module.exports = function (context, req) {
                         "mqtt+ssl": {
                             "ssl": true,
                             "port": 8883,
-                            "username": "admin",
-                            "password": "@dvant1cH"
+                            "username": RMQUser,
+                            "password": RMQPassword
                         },
                         "mqtt": {
                             "ssl": false,
                             "port": 1883,
-                            "username": "admin",
-                            "password": "@dvant1cH"
+                            "username": RMQUser,
+                            "password": RMQPassword
                         }
                     }
                 }
